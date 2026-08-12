@@ -5,3 +5,10 @@
 # b = 3.14
 # c = "Fatec"
 # d = True
+
+a = 10
+b = 3.14
+c = "Fatec"
+d = True
+
+print(type(a),type(b),type(c),type(d))
