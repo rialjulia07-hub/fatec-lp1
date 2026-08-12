@@ -3,3 +3,12 @@
 # float(). Calcule a temperatura correspondente em Fahrenheit
 # (F = C * 9 / 5 + 32) e exiba o resultado utilizando print(), passando o
 # texto e o valor calculado separados por vírgula.
+
+
+nota1 = float(input('Digite a nota 1: '))
+nota2 = float(input('Digite a nota 2: '))
+nota3 = float(input('Digite a nota 3: '))
+
+media = nota1 + nota2 + nota3 / 3
+print(media)
+print(media >= 6)
