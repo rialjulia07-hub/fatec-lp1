@@ -5,10 +5,6 @@
 # texto e o valor calculado separados por vírgula.
 
 
-nota1 = float(input('Digite a nota 1: '))
-nota2 = float(input('Digite a nota 2: '))
-nota3 = float(input('Digite a nota 3: '))
-
-media = nota1 + nota2 + nota3 / 3
-print(media)
-print(media >= 6)
+temperatura = float(input('Digite a temperatura em Celsius: '))
+temperatura_fahrenheit = temperatura * 9 / 5 + 32
+print(temperatura_fahrenheit)
